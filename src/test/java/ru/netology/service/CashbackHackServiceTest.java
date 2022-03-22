@@ -42,4 +42,12 @@ public class CashbackHackServiceTest {
 
         assertEquals(actual, expected);
     }
+    @Test
+    public void shouldCashbackHackService7() {
+
+        int expected = 0;
+        int actual = cashbackHackService.remain(1000);
+
+        assertEquals(expected, actual);
+    }
 }
